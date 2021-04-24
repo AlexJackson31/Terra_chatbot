@@ -1,0 +1,135 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","What can you do?","What do you do?"],
+         "responses": ["Hello, What can I do for you today?","Good to see you again!", "Hi there, how may I help?","Greetings!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a safe travel!", "Bye! Come back again soon","Happy Journey!"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context_set": ""
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context_set": ""
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","What is your name?"],
+         "responses": ["I am Terra your personal travel assistant. I'll walk you through different destinations of Mysore, which is also known as the birthplace of proud kings.Mostly famous for it's grand palaces with intricate and vibrant architecture."],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["I want to know more about Mysore","Where is Mysore?", "Where is it?","Where is it located?","Where is Mysore located?"],
+         "responses": ["The alluring city of Mysore is located in the state of Karnataka.It is also well-connected to cities like Chennai, Cochin, Kottayam, Mumbai, Goa, Coorg and Ooty.Want to know more?"],
+         "context_set": "cult"
+        },
+        {"tag": "yes",
+         "patterns": ["yes"],
+         "responses": ["Mysore was the capital of the Wodeyar kings who ruled over the Mysore Kingdom for many centuries. Wodeyars were great patrons of art and music and have contributed significantly to make Mysore a cultural centre.Culture of Mysore is a fine combination of the historic heritage and the contemporary achievements of the city. The continuous patronage and support of the Kings in every field led to the evolution of a distinct style known as the 'Mysore Style' in the all the fields like painting, architecture, music, poetry etc."],
+         "context_filter": "cult"	
+        },
+        {"tag": "no",
+         "patterns": ["No"],
+         "responses": ["No problem"],
+         "context_filter": "cult"	
+        },
+        {"tag":"best time",
+         "patterns":["When do I visit Mysore?","best time to visit","best time to go","best time"],
+         "responses":["Winter season which lasts from October till the end of February, is recommended for you to visit Mysore","The best time to visit is during the winter season which lasts from October till the end of February."],
+         "context_set":""
+        },
+        {"tag":"reach",
+         "patterns":["How to reach Mysore?","How can I go to Mysore"],
+         "responses":["You can reach Bangalore International Airport which has frequent flights known as Kempegowda International Airport, has daily flights to cities in India like Delhi, Mumbai, Chennai, Cochin, Kolkata, Ahmedabad, Coimbatore, Chandigarh and Pune. IndiGo, SpiceJet, Air India, Jet Airways, TruJet and Vistara are a few of the airlines operating on these routes.Bangalore is about 139 km away from Mysore.You can reach there by train, bus or a cab"],
+         "context_set":""
+        },
+        {"tag":"bus",
+         "patterns":["Bus facility","Buses","What are the bus facilities?","How to get a bus to Mysore?","Buses to Mysore"],
+         "responses":["The Karnataka State Road Transport Corporation (KSRTC) runs a lot of deluxe, semi-deluxe and ordinary buses to Mysore, from Bangalore. A lot of privately-operated buses also ply this route like Kallada Suresh Travels, Poornima Tours and Ashwini Tours and Travels."],
+         "context_set":""
+        },
+        {"tag":"train",
+         "patterns":["train","trains","How to reach Mysore using train?","Which station should I get down?","Trains that go to Mysore"],
+         "responses":["The Mysore Junction is a railway station that is a part of the South Western Railway in India. Trains originating from different parts of the country halt at this prominent railway station. There are daily trains connecting Mysore to Bangalore. Mumbai, Jaipur, Varanasi, Kolkata, Chennai, Tuticorin, Tirupati, Ajmer and Hubli are the other cities connected to Mysore via the rail network."],
+         "context_set":""
+        },
+        {"tag":"places",
+         "patterns":["Sightseeing","Sightseeing in Mysore","Places to visit","Places to vist in Mysore","What are the toursit spots?","What are the toursit destinations?","Places to explore"],
+         "responses":["Places to vist are the Mysore grand palace, Chamundeshwari Temple, Sri Chamarajendra Zoological Gardens, St. Philomena’s Church, Jaganmohan Palace, Brindavan garden and Various Museums."],
+         "context_set":""
+        },
+        {"tag": "Culture",
+         "patterns": ["Festivals in Mysore","I want to know more about culture of Mysore","Mysore culture","Culture in Mysore","Culture"],
+         "responses": ["Mysore City is known as the cultural capital of Karnataka.The Kings supported in every field led to the evolution of a distinct style known as the 'Mysore Style' in the all the fields like painting, architecture, music, poetry etc.The Mysore Dashera is a ten day long festival celebrated in the month of September or October,the Vairamudi Brahmotsavam is a 13 day-long celebration usually takes place in March or April annually, and attracts a large number of devotees,the Panchalinga Darshana festival is a five-day festival is held on the new moon day in the month of Kartika according to the Hindu calendar.To know more about each festival explore our gallery."],
+         "context_set": ""
+        },
+        {"tag": "History",
+         "patterns": ["History of Mysore","History","What is the history of Mysore?","I want to know the history of Mysore" ],
+         "responses": ["The name Mysuru(Mysore) finds its roots from Mahishasura, who was a demon who had the ability to take the form of buffalo and human. It is believed that this area was ruled by the demon Mahishasura who was killed by the Goddess Chamundeshwari, whose temple is over the hills. This is how the city was named Mysore.The history of the city dates back to 2nd Century starting from Ganga Dynasty, the Cholas and the Yadu Dynasty,who ruled over the city.A feudatory of the Vijaynagar Empire, the Yadu dynasty contributed significantly to the development of Mysore.To know more explore our gallery"],
+         "context_set": ""
+        },
+        {"tag": "Mysore Palace",
+         "patterns": ["Mysore Palace","Mysore grand palace","Tell me about grand palace"],
+         "responses": ["The Palace is famous for the rich culture and architectural history. The Mysore palace is a highlight of the architecture and reflects Hindu, Rajput, Islamic and Gothic style of architecture. Located in the heart of the city, it has two Darbar halls, garden, and buildings. It is the official residence of the rulers of Mysore."],
+         "context_set": ""
+        },
+        {"tag": "Chamundeshwari Temple",
+         "patterns": ["Temple","Temples","Temples in Mysore","Chamundi Hills","Chamundeshwari temple","Tell me about Chamundeshwari temple"],
+         "responses": ["The Chamundeshwari temple,located in the outskirts of Mysore,on the Chamundi Hills is one of the most sacred hills in India. The Chamundeshwari Temple is situated at the top of the hill. You can get a breathtaking view of the city from the top of the hills.\nMain Deity: Goddess Chamundeshwari\nBest Time to Visit: October during the Dasara\nTemple Timings: 7.30 am to 9.00 pm\nEntry Fee: Free\nVisit Duration:1-2 hours"],
+         "context_set": ""
+        },
+        {"tag": "Sri Chamarajendra Zoological Gardens",
+         "patterns": ["Zoological garden","Sri Chamarajendra Zoological Gardens","Zoological gardens","Tell me about zoological gardens"],
+         "responses": ["One of the oldest zoo in India is the Mysore Zoo. It has a huge plantation and houses white tigers, rhinos and gorillas. It is one of the popular tourist attractions in the city.Timings: All days except Tuesday between 8.30 AM to 5.30 PM.\nDuration of Visit: 2 to 3 hours\nBest time to Visit: Before 11 AM or after 3 PM\nThe fees ranges from Rs 50-70 for adults and Rs 20-30 for children"],
+         "context_set": ""
+        },
+        {"tag": "St. Philomena’s Church",
+         "patterns": ["St. Philomena’s Church","Church in Mysore","church","Churches in Mysore"],
+         "responses": ["St. Philomena’s Church in Mysore is considered to be the second largest church in Asia. This Roman Catholic Church was built to honor the memory of Saint Philomena, a Latin Catholic Saint and martyr of the Roman Catholic Church. Located in the northern part of the city, St. Philomena’s Church is the most famous address on the ever-busy Ashoka Road of Mysore."],
+         "context_set": ""
+        },
+        {"tag": "Jaganmohan Palace",
+         "patterns": ["Jaganmohan Palace","Tell me about Jaganmohan Palace"],
+         "responses": ["Jaganmohan Palace is one of the majestic palaces that enhance the glory of the princely state of Mysore.The palace has been witness to many important events in the history of Mysore. Jaganmohan Palace now acts as an art gallery and a function hall.\nTiming: 8.30 AM to 5.30 PM on all days of the week (Tickets issued up to 5 PM)\nEntrance Fee: Adult – Rs.20.00 and Children (5 to 10 years old) – Rs.10.00"],
+         "context_set": ""
+        },
+        {"tag": "Brindavan garden",
+         "patterns": ["Tell me about Brindavan garden","Brindavan garden"],
+         "responses": ["Brindavan Gardens is a famous garden in India. Situated next to the Krishnaraja Sagar Dam, the gardens house a dancing fountain which is a major tourist attraction. A light and sound show is conducted every evening, which adds colour to the beautiful gardens\nTimings: 6.30 AM to 8.00 PM\nEntry Fee: INR 15/- per adults and INR 5/- per children between 5 and 10\nMusic Foundation Show: 6.30 pm to 7.30 pm\nVisit Duration: 2 to 3 hours"],
+         "context_set": ""
+        },
+        {"tag": "food",
+         "patterns": ["local food of Mysore","local food","foods in Mysore","food","food of Mysore","What can I eat?"],
+         "responses": ["Kori Gassi,Payasam,Bisibelabath,Shavige Bath,Mysore pak,Poori Saagu,Uttapam,Kesari Bath and Mysore masala dosa are some of the famous dishes you can enjoy"],
+         "context_set": ""	
+        },
+        {"tag": "gifts",
+         "patterns": ["What can I buy in Mysore","gifts to get","gifts","Mysore is famous for?","Speciality of Mysore","Souvenirs"],
+         "responses": ["Mysore is famous for Silk sarees,Khadi cotton,Coffee,Mysore pak,Sandalwood products,Mysore paintings,Rosewood souvenirs,Wooden toys and stone sculptures"],
+         "context_set": ""	
+        },
+        {"tag": "hotels",
+         "patterns": ["Where can I stay","Book a hotel","hotel bookings","accomodations"],
+         "responses": ["You can book a hotel at your convinient prices using these sites:\nwww.trivago.in\nwww.yatra.com\nwww.makemytrip.com\nwww.tripadvisor.in\nwww.goibibo.com"],
+         "context_filter": ""	
+        },
+        {"tag": "shopping",
+         "patterns": ["Where can I go shopping","Where can I shop","shopping centers in Mysore","shopping center","malls","Markets in Mysore","Markets"],
+         "responses": ["These are the famous shopping centers:\nDevaraja Market\nAshoka Road\nCauvery Arts & Crafts Emporium\nGovernment Sandalwood Oil Factory\nGovernment Silk Factory\nGaruda Mall, Mall of Mysore, Forum Centre City Mall and BM Habitat Mall"],
+         "context_set": ""	
+        },
+        {"tag": "activity",
+         "patterns": ["Activities to do in Mysore","Activities","Fun in Mysore","Things to do in Mysore"],
+         "responses": ["You can have fun at Karanji Lake, a picnic at Thonnur Lake, visit GRS Fantasy Park, go for a half-day Mysore Cycle Tour, a trek to Chamundi Hills, explore Sand Sculpture Museum,Rail Museum,Melody World Wax Museum and Srirangapatna"],
+         "context_filter": "cult"	
+        }
+
+    ]
+}
+        
