@@ -70,7 +70,7 @@ if __name__ == '__main__':
     context = {}
     ERROR_THRESHOLD = 0.25
     with open('intents.json') as json_data:
-    intents = json.load(json_data)
+        intents = json.load(json_data)
     stemmer = LancasterStemmer() #reduce words to it's root word
     words = [] #unique stemmed words
     classes = [] #tags
